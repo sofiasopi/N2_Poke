@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #fad507;
-    color: #fffffff8;
+    background-color: #006B78;
+    color: yellow;
     padding: 20px;
     text-align: center; 
 }
@@ -17,6 +17,10 @@ img {
     height: 300px;
     object-fit: cover;
     width: 300px;
+}
+
+.frozen {
+    filter: hue-rotate(-60deg) saturate(10) blur(1px) drop-shadow(1px 1px 8px #00bec4) drop-shadow(-1px -1px 8px #00bec4);
 }
 
 .divImp {

@@ -3,7 +3,6 @@
         <head>
             <meta charset="utf-8">
             <title>Batalha Pokemón</title>
-            <link href="http://fonts.googleapis.com" rel="stylesheet" type="text/css">
             <link href="styles/style.css" rel="stylesheet" type="text/css">
             <script src="scripts/main.js" defer></script>
         </head>
@@ -13,20 +12,28 @@
             </header>
             <br>
             <main">
-                <div id="escolha" class="divImp" style="display: flex; justify-content: center;">
-                    <div style="margin-right: 10px;">
-                        <img src="imagem/venusaur.png" alt="Venussauro"><br>
-                        <button id="grass">Venussauro</button>
-                    </div>
-                
-                    <div style="margin-right: 10px;">
-                        <img src="imagem/charizard.png" alt="Charizard"><br>
-                        <button id="fire">Charizard</button>
-                    </div>
+                <div id="tutorial" class="divImp" style="margin-bottom: 1.5%; justify-items: center;">
+                    <h2>Tutorial</h2>
+                    <p>Para começar, escolha um dos pokémon abaixo, será ele que você vai utilizar para enfrentar o Mewtwo. A batalha acaba quando um de vocês ficar sem HP (pontos de vida) ou PP (pontos de poder). Cada ataque tem o próprio limite de PP, dano e alguns podem ter um efeito adicional, escolha seus movimentos sabiamente para vencer essa batalha, boa sorte.</p>
+                </div>
 
-                    <div style="margin-right: 10px;">
-                        <img src="imagem/blastoise.png" alt="Blastoise"><br>
-                        <button id="water">Blastoise</button>
+                <div id="escolha" class="divImp" style="justify-items: center;">
+                    <h2>Escolha seu Parceiro</h2>
+                    <div style="display: flex; justify-content: center;">
+                        <div style="margin-right: 10px;">
+                            <img src="imagem/venusaur.png" alt="Venussauro"><br>
+                            <button id="grass">Venussauro</button>
+                        </div>
+                    
+                        <div style="margin-right: 10px;">
+                            <img src="imagem/charizard.png" alt="Charizard"><br>
+                            <button id="fire">Charizard</button>
+                        </div>
+
+                        <div style="margin-right: 10px;">
+                            <img src="imagem/blastoise.png" alt="Blastoise"><br>
+                            <button id="water">Blastoise</button>
+                        </div>
                     </div>
                 </div>
 
@@ -45,7 +52,7 @@
                         </div>
 
                         <div>
-                            <img src="imagem/mewtwo.png" alt="Mewtwo"><br>
+                            <img id="botImg" src="imagem/mewtwo.png" alt="Mewtwo"><br>
                             <h3 id="bot">Mewtwo HP196/196</h3>
                         </div>
                     </div>
